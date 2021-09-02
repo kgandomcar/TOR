@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="RPA_Time_Off_Request portal Config">a584cfac65daf0546c6939074ade5946</app_config>
+        <description/>
+        <event_mappings>[ {
+  "eventMappingId" : "ckjqaablqoaaaahheddffhhwjjccduyqeb",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_twte2_rpa_time_0.NAV_ITEM_SELECTED_RELAY_6984cfac70daf054e7bfbae433db3106",
+  "sourceEventDefinition" : {
+    "apiName" : "x_twte2_rpa_time_0.NAV_ITEM_SELECTED_RELAY_6984cfac70daf054e7bfbae433db3106",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_canvas_core.NAV_ITEM_SELECTED",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "route" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "route" ]
+            }
+          },
+          "fields" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "fields" ]
+            }
+          },
+          "params" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "params" ]
+            }
+          },
+          "redirect" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "redirect" ]
+            }
+          },
+          "passiveNavigation" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "passiveNavigation" ]
+            }
+          },
+          "title" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "title" ]
+            }
+          },
+          "multiInstField" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "multiInstField" ]
+            }
+          },
+          "targetRoute" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "targetRoute" ]
+            }
+          },
+          "external" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "external" ]
+            }
+          }
+        }
+      },
+      "sysId" : "8b82bf18e5276c8e423b6e4e0889b463"
+    },
+    "operation" : null,
+    "targetId" : "ckjqaablqoaaaahhdddffhhwlbbvrccxmj",
+    "type" : "EVENT"
+  } ]
+}, {
+  "eventMappingId" : "ckjiqspjbaaaailddffiiaaaccvxskbl",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_twte2_rpa_time_0.NAV_ITEM_SELECTED_RELAY_6584cfacfddaf054770093640e195007",
+  "sourceEventDefinition" : {
+    "apiName" : "x_twte2_rpa_time_0.NAV_ITEM_SELECTED_RELAY_6584cfacfddaf054770093640e195007",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_canvas_core.NAV_ITEM_SELECTED",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "route" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "route" ]
+            }
+          },
+          "fields" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "fields" ]
+            }
+          },
+          "params" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "params" ]
+            }
+          },
+          "redirect" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "redirect" ]
+            }
+          },
+          "passiveNavigation" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "passiveNavigation" ]
+            }
+          },
+          "title" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "title" ]
+            }
+          },
+          "multiInstField" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "multiInstField" ]
+            }
+          },
+          "targetRoute" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "targetRoute" ]
+            }
+          },
+          "external" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "external" ]
+            }
+          }
+        }
+      },
+      "sysId" : "8b82bf18e5276c8e423b6e4e0889b463"
+    },
+    "operation" : null,
+    "targetId" : "ckjiqspjaaaaaikddffiiaggfftmiqoo",
+    "type" : "EVENT"
+  } ]
+} ]</event_mappings>
+        <macroponent display_value="Request">6984cfac70daf054e7bfbae433db3106</macroponent>
+        <macroponent_config>{
+  "table" : "",
+  "sysId" : "",
+  "fields" : "",
+  "status" : "",
+  "page" : "",
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "y",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false
+}</macroponent_config>
+        <name>New record default</name>
+        <order>500</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <required_translations>[]</required_translations>
+        <screen_condition>page=new</screen_condition>
+        <screen_type display_value="Request">6584cfac0edaf0543c568c53a902c800</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>AC51163</sys_created_by>
+        <sys_created_on>2021-08-27 23:28:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>6184cfac2edaf05452a5490b0404a54e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New record default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RPA_Time_Off_Request" source="x_twte2_rpa_time_0">6984cfac12daf054f781cad1b04e7959</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RPA_Time_Off_Request">6984cfac12daf054f781cad1b04e7959</sys_scope>
+        <sys_update_name>sys_ux_screen_6184cfac2edaf05452a5490b0404a54e</sys_update_name>
+        <sys_updated_by>AC51163</sys_updated_by>
+        <sys_updated_on>2021-08-27 23:28:58</sys_updated_on>
+    </sys_ux_screen>
+</record_update>

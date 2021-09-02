@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation>The base subflow for Application Templates (sys_app_template where create_app is set to true).</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from>43b260425b11101001fb0c370581c7ce</copied_from>
+        <copied_from_name>Application Template Subflow</copied_from_name>
+        <description/>
+        <internal_name>application_template__time_off_request</internal_name>
+        <label_cache>[{"name":"subflow.short_description","label":"Input➛short_description","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"9356b547-c282-4bea-8343-09792628a2b3"}},{"name":"subflow.application_name","label":"Input➛application_name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5fa63056-20fd-4f4a-9206-bed2427cacda","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"460dafa3-8095-4e48-be5c-f3e20647fc5d.variable_map","label":"1➛Variable Map","reference_display":"Variable Map","type":"json","base_type":"json","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"aaf6a8f8-0564-4593-8b39-7018c2524188"}},{"name":"f41d9abc-79b1-4a95-9786-e691759b049e.scoped_app_output","label":"1➛scoped_app_output","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"52fa1ac0-cafe-4709-8df3-90c08f568d4a"}}]</label_cache>
+        <master_snapshot>a184cfacecdaf054ad92591b47bc2920</master_snapshot>
+        <name>Application Template - Time Off Request</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>a184cfacecdaf054ad92591b47bc2920</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>AC51163</sys_created_by>
+        <sys_created_on>2021-08-27 23:29:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>ad84cfacf9daf054745a6b2da787ad27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Application Template - Time Off Request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RPA_Time_Off_Request" source="x_twte2_rpa_time_0">6984cfac12daf054f781cad1b04e7959</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RPA_Time_Off_Request">6984cfac12daf054f781cad1b04e7959</sys_scope>
+        <sys_update_name>sys_hub_flow_ad84cfacf9daf054745a6b2da787ad27</sys_update_name>
+        <sys_updated_by>AC51163</sys_updated_by>
+        <sys_updated_on>2021-08-27 23:29:06</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_variable_value action="delete_multiple" query="document_key=ad84cfacf9daf054745a6b2da787ad27"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=ad84cfacf9daf054745a6b2da787ad27^sys_idNOT INed84cfacc2daf054e7993d2611ebac27"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>ad84cfacf9daf054745a6b2da787ad27</id>
+        <name>Application Template - Time Off Request</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>AC51163</sys_created_by>
+        <sys_created_on>2021-08-27 23:29:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ed84cfacc2daf054e7993d2611ebac27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RPA_Time_Off_Request">6984cfac12daf054f781cad1b04e7959</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>AC51163</sys_updated_by>
+        <sys_updated_on>2021-08-27 23:29:06</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_action_instance action="delete_multiple" query="flow=ad84cfacf9daf054745a6b2da787ad27^sys_idNOT IN2184cface6daf054a57942a34d352628"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Templated Scoped Application">31afaeb75b10101083f30f216581c759</action_type>
+        <action_type_parent display_value="Create Templated Scoped Application">af9769265b10101083f30f216581c798</action_type_parent>
+        <comment/>
+        <compiled_snapshot>31afaeb75b10101083f30f216581c759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Application Template - Time Off Request">ad84cfacf9daf054745a6b2da787ad27</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>AC51163</sys_created_by>
+        <sys_created_on>2021-08-27 23:29:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2184cface6daf054a57942a34d352628</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RPA_Time_Off_Request">6984cfac12daf054f781cad1b04e7959</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>AC51163</sys_updated_by>
+        <sys_updated_on>2021-08-27 23:29:06</sys_updated_on>
+        <ui_id>f41d9abc-79b1-4a95-9786-e691759b049e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2184cface6daf054a57942a34d352628"/>
+    <sys_element_mapping action="delete_multiple" query="id=2184cface6daf054a57942a34d352628"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application_name</field>
+        <id>2184cface6daf054a57942a34d352628</id>
+        <sys_created_by>AC51163</sys_created_by>
+        <sys_created_on>2021-08-27 23:29:06</sys_created_on>
+        <sys_id>6184cfacc5daf05409730090e2984d28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>AC51163</sys_updated_by>
+        <sys_updated_on>2021-08-27 23:29:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_31afaeb75b10101083f30f216581c759</table>
+        <value>{{subflow.application_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>short_description</field>
+        <id>2184cface6daf054a57942a34d352628</id>
+        <sys_created_by>AC51163</sys_created_by>
+        <sys_created_on>2021-08-27 23:29:06</sys_created_on>
+        <sys_id>a184cfacdadaf0548c87fc8de93abd28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>AC51163</sys_updated_by>
+        <sys_updated_on>2021-08-27 23:29:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_31afaeb75b10101083f30f216581c759</table>
+        <value>{{subflow.short_description}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=ad84cfacf9daf054745a6b2da787ad27^sys_idNOT INe184cfacebdaf054f1a0f8a95f905328"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">2584cfaccadaf0545a5625508dd01228</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Application Template - Time Off Request">ad84cfacf9daf054745a6b2da787ad27</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned>app_sys_id</outputs_assigned>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>AC51163</sys_created_by>
+        <sys_created_on>2021-08-27 23:29:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e184cfacebdaf054f1a0f8a95f905328</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RPA_Time_Off_Request">6984cfac12daf054f781cad1b04e7959</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>AC51163</sys_updated_by>
+        <sys_updated_on>2021-08-27 23:29:06</sys_updated_on>
+        <ui_id>2055d566-9983-43da-9208-75f8be2a37c2</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=e184cfacebdaf054f1a0f8a95f905328"/>
+    <sys_hub_flow action="update">
+        <sys_id>ad84cfacf9daf054745a6b2da787ad27</sys_id>
+        <latest_snapshot>a184cfacecdaf054ad92591b47bc2920</latest_snapshot>
+    </sys_hub_flow>
+</record_update>

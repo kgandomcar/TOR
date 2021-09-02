@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="RPA_Time_Off_Request workspace Config">e584cfac3bdaf0541e7d220596a4b848</app_config>
+        <description/>
+        <event_mappings>[ {
+  "eventMappingId" : "ckikfuutddaaaahhjjddffhhwccaeiiabccb",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_twte2_rpa_time_0.MODAL_SELECTED_RELAY_e5848facf2daf0549de04db5917518fb",
+  "sourceEventDefinition" : {
+    "apiName" : "x_twte2_rpa_time_0.MODAL_SELECTED_RELAY_e5848facf2daf0549de04db5917518fb",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_canvas_core.MODAL_SELECTED",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "modalId" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "modalId" ]
+            }
+          },
+          "showModal" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "showModal" ]
+            }
+          },
+          "displayOptions" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "displayOptions" ]
+            }
+          },
+          "bare" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "bare" ]
+            }
+          }
+        }
+      },
+      "sysId" : "882eed4091382d3a41f1bb3f382ae089"
+    },
+    "operation" : null,
+    "targetId" : "ckikfuutccaaaahhiiddffhhwbeyldddvs",
+    "type" : "EVENT"
+  } ]
+} ]</event_mappings>
+        <macroponent display_value="Record">e5848facf2daf0549de04db5917518fb</macroponent>
+        <macroponent_config>{
+  "views" : "record",
+  "selectedTabIndex" : 0,
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "y",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false
+}</macroponent_config>
+        <name>Record default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[]</required_translations>
+        <screen_condition/>
+        <screen_type display_value="Record">ed84cfac54daf054d553126545c70902</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>AC51163</sys_created_by>
+        <sys_created_on>2021-08-27 23:28:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>2584cfac60daf054cc5e45881524a351</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RPA_Time_Off_Request" source="x_twte2_rpa_time_0">6984cfac12daf054f781cad1b04e7959</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RPA_Time_Off_Request">6984cfac12daf054f781cad1b04e7959</sys_scope>
+        <sys_update_name>sys_ux_screen_2584cfac60daf054cc5e45881524a351</sys_update_name>
+        <sys_updated_by>AC51163</sys_updated_by>
+        <sys_updated_on>2021-08-27 23:28:52</sys_updated_on>
+    </sys_ux_screen>
+</record_update>

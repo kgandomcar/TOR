@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <event_name>NAV_ITEM_SELECTED_RELAY_2d84cfac10daf0542a5b1dd2b4a52508</event_name>
+        <interfaces/>
+        <label>Link to destination Relay (Update time off request (layout tweak))</label>
+        <props>[{"name":"route","fieldType":"string","interfaceApiName":"global.route","label":"Route type"},{"name":"fields","fieldType":"json","interfaceApiName":"global.route","label":"Route fields"},{"name":"params","fieldType":"json","interfaceApiName":"global.route","label":"Optionals parameters"},{"name":"redirect","fieldType":"boolean","interfaceApiName":null,"label":"Remove previous URL from browser history"},{"name":"passiveNavigation","fieldType":"boolean","interfaceApiName":null,"label":"Load in background (advanced)"},{"name":"title","fieldType":"string","interfaceApiName":null,"label":"Title (advanced)"},{"name":"multiInstField","fieldType":"string","interfaceApiName":null,"label":"Multi-instance field (advanced)"},{"name":"targetRoute","fieldType":"string","interfaceApiName":null,"label":"Sub-navigation route (advanced)"},{"name":"external","fieldType":"json","interfaceApiName":"global.route","label":"External URL object"}]</props>
+        <required_translations>[{"message":"Route type","comment":""},{"message":"Optionals parameters","comment":""},{"message":"Load in background (advanced)","comment":""},{"message":"Sub-navigation route (advanced)","comment":""},{"message":"External URL object","comment":""},{"message":"Remove previous URL from browser history","comment":""},{"message":"Route fields","comment":""},{"message":"Title (advanced)","comment":""},{"message":"Multi-instance field (advanced)","comment":""}]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>AC51163</sys_created_by>
+        <sys_created_on>2021-08-27 23:29:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2d84cfac4ddaf05411824fee60fafc10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Link to destination Relay (Update time off request (layout tweak))</sys_name>
+        <sys_package display_value="RPA_Time_Off_Request" source="x_twte2_rpa_time_0">6984cfac12daf054f781cad1b04e7959</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RPA_Time_Off_Request">6984cfac12daf054f781cad1b04e7959</sys_scope>
+        <sys_update_name>sys_ux_event_2d84cfac4ddaf05411824fee60fafc10</sys_update_name>
+        <sys_updated_by>AC51163</sys_updated_by>
+        <sys_updated_on>2021-08-27 23:29:11</sys_updated_on>
+    </sys_ux_event>
+</record_update>

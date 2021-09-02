@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script_include">
+    <sys_ux_client_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <api_name>x_twte2_rpa_time_0.Total days past in the year</api_name>
+        <includes/>
+        <name>Total days past in the year</name>
+        <required_translations/>
+        <script><![CDATA[function include({imports}) { 
+  getTotalDays: function() {
+        var now = new Date();
+        var start = new Date(now.getFullYear(), 0, 0);
+        var diff = (now - start) + ((start.getTimezoneOffset() - now.getTimezoneOffset()) * 60 * 1000);
+        var oneDay = 1000 * 60 * 60 * 24;
+        var day = Math.floor(diff / oneDay);
+        return day;
+
+    }
+
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script_include</sys_class_name>
+        <sys_created_by>AC51163</sys_created_by>
+        <sys_created_on>2021-08-27 23:29:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6184cfacaadaf0546c2308cf17134e0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Total days past in the year</sys_name>
+        <sys_package display_value="RPA_Time_Off_Request" source="x_twte2_rpa_time_0">6984cfac12daf054f781cad1b04e7959</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RPA_Time_Off_Request">6984cfac12daf054f781cad1b04e7959</sys_scope>
+        <sys_update_name>sys_ux_client_script_include_6184cfacaadaf0546c2308cf17134e0b</sys_update_name>
+        <sys_updated_by>AC51163</sys_updated_by>
+        <sys_updated_on>2021-08-27 23:29:00</sys_updated_on>
+    </sys_ux_client_script_include>
+</record_update>

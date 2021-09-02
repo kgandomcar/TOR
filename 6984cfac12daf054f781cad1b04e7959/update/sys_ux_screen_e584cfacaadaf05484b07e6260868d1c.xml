@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="RPA_Time_Off_Request workspace Config">e584cfac3bdaf0541e7d220596a4b848</app_config>
+        <description/>
+        <event_mappings>[ ]</event_mappings>
+        <macroponent display_value="SHN Page">a984cfac31daf05455a36d45e7f30e16</macroponent>
+        <macroponent_config>{
+  "label" : "",
+  "confs" : "@data.get_special_handling_notes.output.data.GlideSHN_Query",
+  "table" : "@data.gform.nowRecordFormBlob.table",
+  "sysId" : "@data.gform.nowRecordFormBlob.sysId",
+  "bare" : true,
+  "scrollable" : "y",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false,
+  "views" : "workspace",
+  "selectedTabIndex" : 0
+}</macroponent_config>
+        <name>SHN Page Default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Record">ad84cfac13daf054a73c834a63ccc000</parent_macroponent>
+        <required_translations>[]</required_translations>
+        <screen_condition/>
+        <screen_type display_value="Special Handling Notes">a584cfac44daf054d6bd48072e560f01</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>AC51163</sys_created_by>
+        <sys_created_on>2021-08-27 23:29:05</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>e584cfacaadaf05484b07e6260868d1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SHN Page Default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RPA_Time_Off_Request" source="x_twte2_rpa_time_0">6984cfac12daf054f781cad1b04e7959</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RPA_Time_Off_Request">6984cfac12daf054f781cad1b04e7959</sys_scope>
+        <sys_update_name>sys_ux_screen_e584cfacaadaf05484b07e6260868d1c</sys_update_name>
+        <sys_updated_by>AC51163</sys_updated_by>
+        <sys_updated_on>2021-08-27 23:29:05</sys_updated_on>
+    </sys_ux_screen>
+</record_update>

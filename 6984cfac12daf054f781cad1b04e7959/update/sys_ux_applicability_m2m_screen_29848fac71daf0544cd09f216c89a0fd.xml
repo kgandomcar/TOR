@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen">
+    <sys_ux_applicability_m2m_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Time Off Manager">ad848fac48daf0543d15773d4e908dfb</applicability>
+        <order>0</order>
+        <screen display_value="List Mgr">e984cfacbbdaf05428addab136ae624d</screen>
+        <sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name>
+        <sys_created_by>AC51163</sys_created_by>
+        <sys_created_on>2021-08-27 23:29:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>29848fac71daf0544cd09f216c89a0fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RPA_Time_Off_Request" source="x_twte2_rpa_time_0">6984cfac12daf054f781cad1b04e7959</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RPA_Time_Off_Request">6984cfac12daf054f781cad1b04e7959</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_screen_29848fac71daf0544cd09f216c89a0fd</sys_update_name>
+        <sys_updated_by>AC51163</sys_updated_by>
+        <sys_updated_on>2021-08-27 23:29:11</sys_updated_on>
+    </sys_ux_applicability_m2m_screen>
+</record_update>

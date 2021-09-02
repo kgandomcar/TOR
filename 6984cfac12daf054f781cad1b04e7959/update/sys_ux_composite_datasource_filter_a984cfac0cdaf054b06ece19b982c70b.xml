@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_datasource_filter">
+    <sys_ux_composite_datasource_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <base_condition/>
+        <condition table="x_twte2_rpa_time_0_request">requested_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe^sys_created_onONLast 30 days@javascript:gs.beginningOfLast30Days()@javascript:gs.endOfLast30Days()^start_dateONThis year@javascript:gs.beginningOfThisYear()@javascript:gs.endOfThisYear()^EQ<item endquery="false" field="requested_by" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="ON" or="false" value="Last 30 days@javascript:gs.beginningOfLast30Days()@javascript:gs.endOfLast30Days()"/>
+            <item endquery="false" field="start_date" goto="false" newquery="false" operator="ON" or="false" value="This year@javascript:gs.beginningOfThisYear()@javascript:gs.endOfThisYear()"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <datasource display_value="Time Off Datasource">6584cfacf0daf05485706bd9754df60b</datasource>
+        <datasource_table>x_twte2_rpa_time_0_request</datasource_table>
+        <filter display_value="Time Off Recent Requests">6984cfac68daf0547a30d7befa44bb0b</filter>
+        <name>Recent Requests</name>
+        <sys_class_name>sys_ux_composite_datasource_filter</sys_class_name>
+        <sys_created_by>AC51163</sys_created_by>
+        <sys_created_on>2021-08-27 23:28:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a984cfac0cdaf054b06ece19b982c70b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Recent Requests</sys_name>
+        <sys_package display_value="RPA_Time_Off_Request" source="x_twte2_rpa_time_0">6984cfac12daf054f781cad1b04e7959</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RPA_Time_Off_Request">6984cfac12daf054f781cad1b04e7959</sys_scope>
+        <sys_update_name>sys_ux_composite_datasource_filter_a984cfac0cdaf054b06ece19b982c70b</sys_update_name>
+        <sys_updated_by>AC51163</sys_updated_by>
+        <sys_updated_on>2021-08-27 23:28:54</sys_updated_on>
+    </sys_ux_composite_datasource_filter>
+</record_update>

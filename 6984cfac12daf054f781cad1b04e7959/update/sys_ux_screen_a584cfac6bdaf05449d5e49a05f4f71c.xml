@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="RPA_Time_Off_Request workspace Config">e584cfac3bdaf0541e7d220596a4b848</app_config>
+        <description/>
+        <event_mappings>[ {
+  "eventMappingId" : "aaasdckejjbqahhjjggguqaaadhhhiieevuo",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "global.REF_PICK#ROW_CLICKED",
+  "sourceEventDefinition" : {
+    "apiName" : "global.REF_PICK#ROW_CLICKED",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : null,
+    "operation" : {
+      "dataBrokerId" : "dc6e87a5232200100e4bc50947bf654b",
+      "operationName" : "SET_VALUE",
+      "parentResourceId" : "gform",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "fieldName" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "referenceField" ]
+            }
+          },
+          "value" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "row", "sys_id", "value" ]
+            }
+          },
+          "displayValue" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "row", "displayValue", "value" ]
+            }
+          }
+        }
+      }
+    },
+    "targetId" : "arddhjggguqaaaahhiivdjjnjjckejjjaitcc",
+    "type" : "DATABROKER_OP"
+  } ]
+}, {
+  "eventMappingId" : "ckfffkkaiitaaaabbaaddhhhddtiibreehhfy",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "global.MODAL_SELECTED_RELAY_d7f8b70dff13101035be517f793bf1e0",
+  "sourceEventDefinition" : {
+    "apiName" : "global.MODAL_SELECTED_RELAY_d7f8b70dff13101035be517f793bf1e0",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_canvas_core.MODAL_SELECTED",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "modalId" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "modalId" ]
+            }
+          },
+          "showModal" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "showModal" ]
+            }
+          },
+          "displayOptions" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "displayOptions" ]
+            }
+          }
+        }
+      },
+      "sysId" : null
+    },
+    "operation" : null,
+    "targetId" : "ckfffkkaiitaaaaaazddhhhddjjlddgqccddg",
+    "type" : "EVENT"
+  } ]
+} ]</event_mappings>
+        <macroponent display_value="DA Modal Ref Lookup">ad84cfacbedaf05400b638438a689416</macroponent>
+        <macroponent_config>{
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "y",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false,
+  "views" : "workspace",
+  "selectedTabIndex" : 0
+}</macroponent_config>
+        <name>DA Modal Ref Lookup Default</name>
+        <order>0</order>
+        <parent_macroponent/>
+        <required_translations>[]</required_translations>
+        <screen_condition/>
+        <screen_type display_value="DA Modal Ref Lookup">ed848faca9daf05434d98f6293bb1fff</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>AC51163</sys_created_by>
+        <sys_created_on>2021-08-27 23:28:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>a584cfac6bdaf05449d5e49a05f4f71c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DA Modal Ref Lookup Default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RPA_Time_Off_Request" source="x_twte2_rpa_time_0">6984cfac12daf054f781cad1b04e7959</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RPA_Time_Off_Request">6984cfac12daf054f781cad1b04e7959</sys_scope>
+        <sys_update_name>sys_ux_screen_a584cfac6bdaf05449d5e49a05f4f71c</sys_update_name>
+        <sys_updated_by>AC51163</sys_updated_by>
+        <sys_updated_on>2021-08-27 23:28:53</sys_updated_on>
+    </sys_ux_screen>
+</record_update>

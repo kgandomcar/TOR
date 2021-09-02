@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_template_slot">
+    <sys_sg_view_template_slot action="INSERT_OR_UPDATE">
+        <name>text_08</name>
+        <sys_class_name>sys_sg_view_template_slot</sys_class_name>
+        <sys_created_by>AC51163</sys_created_by>
+        <sys_created_on>2021-08-27 23:29:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e984cfac7fdaf054285d97e2ad30f44b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>text_08</sys_name>
+        <sys_package display_value="RPA_Time_Off_Request" source="x_twte2_rpa_time_0">6984cfac12daf054f781cad1b04e7959</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RPA_Time_Off_Request">6984cfac12daf054f781cad1b04e7959</sys_scope>
+        <sys_update_name>sys_sg_view_template_slot_e984cfac7fdaf054285d97e2ad30f44b</sys_update_name>
+        <sys_updated_by>AC51163</sys_updated_by>
+        <sys_updated_on>2021-08-27 23:29:04</sys_updated_on>
+        <type>Text</type>
+        <view_template display_value="Time Off Template">a984cfac12daf0548d98a1fba8aa8a4b</view_template>
+    </sys_sg_view_template_slot>
+</record_update>

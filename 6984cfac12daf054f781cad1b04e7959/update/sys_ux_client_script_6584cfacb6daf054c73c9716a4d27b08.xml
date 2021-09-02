@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="List">6d848fac9adaf054e07aa87c70be19fa</macroponent>
+        <name>List Modal</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[function handler({
+        api,
+        event,
+        imports,
+        helpers
+    }) {
+    
+    const { name, payload: { route, fields, params, size = 'md' }} = event;
+    
+    if (name === 'LIST#CLOSE_MODAL')
+        helpers.modal.close();
+    
+    else if (name === 'LIST#OPEN_MODAL') {
+        if (!route)
+            return; 
+        api.setState('bare', true);
+        api.setState('displayOptions', { size: size });
+        api.setState('contents', {
+            route: route,
+            fields: fields,
+            params: params
+        });
+    }
+    
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>AC51163</sys_created_by>
+        <sys_created_on>2021-08-27 23:29:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6584cfacb6daf054c73c9716a4d27b08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>List Modal</sys_name>
+        <sys_package display_value="RPA_Time_Off_Request" source="x_twte2_rpa_time_0">6984cfac12daf054f781cad1b04e7959</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RPA_Time_Off_Request">6984cfac12daf054f781cad1b04e7959</sys_scope>
+        <sys_update_name>sys_ux_client_script_6584cfacb6daf054c73c9716a4d27b08</sys_update_name>
+        <sys_updated_by>AC51163</sys_updated_by>
+        <sys_updated_on>2021-08-27 23:29:13</sys_updated_on>
+    </sys_ux_client_script>
+</record_update>

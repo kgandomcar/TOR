@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_section">
+    <sys_sg_item_section action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data_item/>
+        <destination_screen display_value="Awaiting Approval">6984cfacbddaf054da197def54395342</destination_screen>
+        <display_title>true</display_title>
+        <hide_header>false</hide_header>
+        <hide_section_if_empty>false</hide_section_if_empty>
+        <hide_see_all_button>false</hide_see_all_button>
+        <max_items_display_count>15</max_items_display_count>
+        <orientation>horizontal</orientation>
+        <required_roles/>
+        <sys_class_name>sys_sg_item_section</sys_class_name>
+        <sys_created_by>AC51163</sys_created_by>
+        <sys_created_on>2021-08-27 23:28:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2584cfacabdaf054e0543c96c012b43d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Awaiting Approval</sys_name>
+        <sys_package display_value="RPA_Time_Off_Request" source="x_twte2_rpa_time_0">6984cfac12daf054f781cad1b04e7959</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RPA_Time_Off_Request">6984cfac12daf054f781cad1b04e7959</sys_scope>
+        <sys_update_name>sys_sg_item_section_2584cfacabdaf054e0543c96c012b43d</sys_update_name>
+        <sys_updated_by>AC51163</sys_updated_by>
+        <sys_updated_on>2021-08-27 23:28:56</sys_updated_on>
+        <table/>
+        <title>Awaiting Approval</title>
+        <visible_condition/>
+    </sys_sg_item_section>
+</record_update>

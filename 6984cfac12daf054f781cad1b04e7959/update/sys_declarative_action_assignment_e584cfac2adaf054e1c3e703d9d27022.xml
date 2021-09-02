@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_declarative_action_assignment">
+    <sys_declarative_action_assignment action="INSERT_OR_UPDATE">
+        <action/>
+        <action_attributes/>
+        <action_name>decline</action_name>
+        <action_payload/>
+        <action_type>type</action_type>
+        <active>true</active>
+        <button_type>tertiary</button_type>
+        <client_action display_value="Edit">ed84cfac64daf054a72e7ce8eeb6bc21</client_action>
+        <client_conditions/>
+        <client_conditions_on_fields/>
+        <confirmation_message/>
+        <confirmation_required>false</confirmation_required>
+        <create_access>false</create_access>
+        <declarative_action_render_mode/>
+        <declarative_action_type>uxf_client_action</declarative_action_type>
+        <delete_access>false</delete_access>
+        <dependency/>
+        <description/>
+        <design_icon/>
+        <enabled>true</enabled>
+        <field_name/>
+        <field_type>glide_date</field_type>
+        <form_fields_required>false</form_fields_required>
+        <form_position/>
+        <group display_value="">c5b57bdc88b16010f877f9b035bdf4a9</group>
+        <group_by>true</group_by>
+        <icon/>
+        <label>Decline</label>
+        <model display_value="List">c3547169534723003eddddeeff7b126c</model>
+        <model_conditions/>
+        <model_field_required/>
+        <order>20</order>
+        <payload_map/>
+        <read_access>false</read_access>
+        <record_conditions/>
+        <record_selection_required>false</record_selection_required>
+        <required_roles name="x_twte2_rpa_time_0.manager">e984cfac4fdaf054e38ace1342cc3127</required_roles>
+        <requires_value>false</requires_value>
+        <script_condition/>
+        <server_script><![CDATA[function rejectPTO(){
+	g_form.setValue('status', 'rejected');
+	var reason = g_form.getValue('rejection_reason');
+	g_form.hideFieldMsg('rejection_reason');
+	if (reason == ''){
+		g_form.showFieldMsg('rejection_reason', 'Reason for rejection is required when rejecting a Time Off request.', 'error');
+		return false; //abort submission
+	}
+	
+	gsftSubmit(null, g_form.getFormElement(), 'pto_reject'); //MUST call the 'Action name' set in this UI Action
+}
+
+//Code that runs without 'onclick'
+//Ensure call to server-side function with no browser errors
+if (typeof window == 'undefined')
+	serverTimeOff();
+
+function serverTimeOff(){
+	var pto = new TimeOffSNC().rejectTimeOff(current);
+}]]></server_script>
+        <specificity>11</specificity>
+        <sys_class_name>sys_declarative_action_assignment</sys_class_name>
+        <sys_created_by>AC51163</sys_created_by>
+        <sys_created_on>2021-08-27 23:29:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>e584cfac2adaf054e1c3e703d9d27022</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>decline</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RPA_Time_Off_Request" source="x_twte2_rpa_time_0">6984cfac12daf054f781cad1b04e7959</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RPA_Time_Off_Request">6984cfac12daf054f781cad1b04e7959</sys_scope>
+        <sys_update_name>sys_declarative_action_assignment_e584cfac2adaf054e1c3e703d9d27022</sys_update_name>
+        <sys_updated_by>AC51163</sys_updated_by>
+        <sys_updated_on>2021-08-27 23:29:11</sys_updated_on>
+        <table>x_twte2_rpa_time_0_request</table>
+        <tooltip/>
+        <ui_component/>
+        <view/>
+        <workspace/>
+        <write_access>false</write_access>
+    </sys_declarative_action_assignment>
+</record_update>

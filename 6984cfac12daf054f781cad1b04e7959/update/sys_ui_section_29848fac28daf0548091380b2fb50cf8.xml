@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="29848fac28daf0548091380b2fb50cf8" sys_domain="global" table="x_twte2_rpa_time_0_request" version="3" view="new_x_twte2_rpa_time_0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>0</position>
+            <sys_created_by>AC51163</sys_created_by>
+            <sys_created_on>2021-08-27 23:29:03</sys_created_on>
+            <sys_id>a9848facfcdaf054563114dd5aa735f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_twte2_rpa_time_0_request" sys_domain="global" view="69848fac37daf054bddfac4c609b2cf8">29848fac28daf0548091380b2fb50cf8</sys_ui_section>
+            <sys_updated_by>AC51163</sys_updated_by>
+            <sys_updated_on>2021-08-27 23:29:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>1</position>
+            <sys_created_by>AC51163</sys_created_by>
+            <sys_created_on>2021-08-27 23:29:03</sys_created_on>
+            <sys_id>e9848facbadaf05436a66853bfcdd4f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_twte2_rpa_time_0_request" sys_domain="global" view="69848fac37daf054bddfac4c609b2cf8">29848fac28daf0548091380b2fb50cf8</sys_ui_section>
+            <sys_updated_by>AC51163</sys_updated_by>
+            <sys_updated_on>2021-08-27 23:29:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>2</position>
+            <sys_created_by>AC51163</sys_created_by>
+            <sys_created_on>2021-08-27 23:29:03</sys_created_on>
+            <sys_id>2d848fac89daf0545827c43813d751f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_twte2_rpa_time_0_request" sys_domain="global" view="69848fac37daf054bddfac4c609b2cf8">29848fac28daf0548091380b2fb50cf8</sys_ui_section>
+            <sys_updated_by>AC51163</sys_updated_by>
+            <sys_updated_on>2021-08-27 23:29:03</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>start_date</element>
+            <position>3</position>
+            <sys_created_by>AC51163</sys_created_by>
+            <sys_created_on>2021-08-27 23:29:03</sys_created_on>
+            <sys_id>6d848fac1bdaf0541f466d4a11a5c0f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_twte2_rpa_time_0_request" sys_domain="global" view="69848fac37daf054bddfac4c609b2cf8">29848fac28daf0548091380b2fb50cf8</sys_ui_section>
+            <sys_updated_by>AC51163</sys_updated_by>
+            <sys_updated_on>2021-08-27 23:29:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>AC51163</sys_created_by>
+            <sys_created_on>2021-08-27 23:29:03</sys_created_on>
+            <sys_id>ad848fac28daf054ebe708f9fdb6d1f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_twte2_rpa_time_0_request" sys_domain="global" view="69848fac37daf054bddfac4c609b2cf8">29848fac28daf0548091380b2fb50cf8</sys_ui_section>
+            <sys_updated_by>AC51163</sys_updated_by>
+            <sys_updated_on>2021-08-27 23:29:03</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>end_date</element>
+            <position>5</position>
+            <sys_created_by>AC51163</sys_created_by>
+            <sys_created_on>2021-08-27 23:29:03</sys_created_on>
+            <sys_id>21848facbddaf0545af3bff128cf5cf9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_twte2_rpa_time_0_request" sys_domain="global" view="69848fac37daf054bddfac4c609b2cf8">29848fac28daf0548091380b2fb50cf8</sys_ui_section>
+            <sys_updated_by>AC51163</sys_updated_by>
+            <sys_updated_on>2021-08-27 23:29:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>6</position>
+            <sys_created_by>AC51163</sys_created_by>
+            <sys_created_on>2021-08-27 23:29:03</sys_created_on>
+            <sys_id>61848facf9daf054433e466ca50f34f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_twte2_rpa_time_0_request" sys_domain="global" view="69848fac37daf054bddfac4c609b2cf8">29848fac28daf0548091380b2fb50cf8</sys_ui_section>
+            <sys_updated_by>AC51163</sys_updated_by>
+            <sys_updated_on>2021-08-27 23:29:03</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>time_off_reason</element>
+            <position>7</position>
+            <sys_created_by>AC51163</sys_created_by>
+            <sys_created_on>2021-08-27 23:29:03</sys_created_on>
+            <sys_id>a1848facc6daf054f0cca14bd3548af9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_twte2_rpa_time_0_request" sys_domain="global" view="69848fac37daf054bddfac4c609b2cf8">29848fac28daf0548091380b2fb50cf8</sys_ui_section>
+            <sys_updated_by>AC51163</sys_updated_by>
+            <sys_updated_on>2021-08-27 23:29:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_twte2_rpa_time_0_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>AC51163</sys_created_by>
+            <sys_created_on>2021-08-27 23:29:03</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>29848fac28daf0548091380b2fb50cf8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_twte2_rpa_time_0_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="RPA_Time_Off_Request" source="x_twte2_rpa_time_0">6984cfac12daf054f781cad1b04e7959</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="RPA_Time_Off_Request">6984cfac12daf054f781cad1b04e7959</sys_scope>
+            <sys_update_name>sys_ui_section_29848fac28daf0548091380b2fb50cf8</sys_update_name>
+            <sys_updated_by>AC51163</sys_updated_by>
+            <sys_updated_on>2021-08-27 23:29:03</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="New (x_twte2_rpa_time_0 )" name="new_x_twte2_rpa_time_0">69848fac37daf054bddfac4c609b2cf8</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

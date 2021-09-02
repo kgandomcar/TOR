@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_notification_workspace_content">
+    <sys_notification_workspace_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <is_default>false</is_default>
+        <name>TO</name>
+        <notification display_value="Time off Submitted">2184cfaccedaf0545bd6986001e4db33</notification>
+        <route display_value="Time Off Request WS">a5848facd4daf054e08d037cbacb60fa</route>
+        <sys_class_name>sys_notification_workspace_content</sys_class_name>
+        <sys_created_by>AC51163</sys_created_by>
+        <sys_created_on>2021-08-27 23:29:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e184cfac7fdaf054e0cd4bc5612b1533</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TO</sys_name>
+        <sys_package display_value="RPA_Time_Off_Request" source="x_twte2_rpa_time_0">6984cfac12daf054f781cad1b04e7959</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RPA_Time_Off_Request">6984cfac12daf054f781cad1b04e7959</sys_scope>
+        <sys_update_name>sys_notification_workspace_content_e184cfac7fdaf054e0cd4bc5612b1533</sys_update_name>
+        <sys_updated_by>AC51163</sys_updated_by>
+        <sys_updated_on>2021-08-27 23:29:11</sys_updated_on>
+    </sys_notification_workspace_content>
+</record_update>

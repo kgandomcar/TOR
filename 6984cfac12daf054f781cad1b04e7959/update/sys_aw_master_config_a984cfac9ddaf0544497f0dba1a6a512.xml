@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_aw_master_config">
+    <sys_aw_master_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <brand_color>#003059</brand_color>
+        <compiled_page display_value="Workspace Core">b70867ad0f603300bb57f4a1ff767e15</compiled_page>
+        <compiled_page_registry/>
+        <description/>
+        <global_search display_value="Time off search settings">ed84cfacc9daf0546b8f3c303a10a711</global_search>
+        <global_search_data display_value="">fd08fbeead38a010f8779a6b16742d0a</global_search_data>
+        <hide_search_results_count>false</hide_search_results_count>
+        <name>Time Off Request WS</name>
+        <navigation_type>tab</navigation_type>
+        <notifications_enabled>true</notifications_enabled>
+        <primary_color>#eae2f0</primary_color>
+        <search_enabled>true</search_enabled>
+        <sys_class_name>sys_aw_master_config</sys_class_name>
+        <sys_created_by>AC51163</sys_created_by>
+        <sys_created_on>2021-08-27 23:29:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a984cfac9ddaf0544497f0dba1a6a512</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Time Off Request WS</sys_name>
+        <sys_package display_value="RPA_Time_Off_Request" source="x_twte2_rpa_time_0">6984cfac12daf054f781cad1b04e7959</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RPA_Time_Off_Request">6984cfac12daf054f781cad1b04e7959</sys_scope>
+        <sys_update_name>sys_aw_master_config_a984cfac9ddaf0544497f0dba1a6a512</sys_update_name>
+        <sys_updated_by>AC51163</sys_updated_by>
+        <sys_updated_on>2021-08-27 23:29:12</sys_updated_on>
+        <user_preference_controls_enabled>true</user_preference_controls_enabled>
+        <workspace_logo/>
+        <workspace_url>time-off-request</workspace_url>
+    </sys_aw_master_config>
+</record_update>
