@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_chart">
+    <sys_sg_chart action="INSERT_OR_UPDATE">
+        <jump_to_screen display_value="Time Off Report by Status (Bar) Navigation">2584cfacd6daf0548bcbd0b1ac93c33e</jump_to_screen>
+        <name>Time Off Trends</name>
+        <report display_value="Time Off Report by Status">2984cfac81daf054bd614234c28ae434</report>
+        <sys_class_name>sys_sg_chart</sys_class_name>
+        <sys_created_by>AC51163</sys_created_by>
+        <sys_created_on>2021-08-27 23:29:21</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2984cfac57daf05416921607a10aa63f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Time Off Trends</sys_name>
+        <sys_package display_value="RPA_Time_Off_Request" source="x_twte2_rpa_time_0">6984cfac12daf054f781cad1b04e7959</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RPA_Time_Off_Request">6984cfac12daf054f781cad1b04e7959</sys_scope>
+        <sys_update_name>sys_sg_chart_2984cfac57daf05416921607a10aa63f</sys_update_name>
+        <sys_updated_by>AC51163</sys_updated_by>
+        <sys_updated_on>2021-08-27 23:29:21</sys_updated_on>
+        <title/>
+        <type>report</type>
+        <widget/>
+    </sys_sg_chart>
+</record_update>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_chart_color">
+    <sys_report_chart_color action="INSERT_OR_UPDATE">
+        <color>#008000</color>
+        <color_name display_value="Vivid Blue">2d848fac00daf054da50b5e3c7035dfb</color_name>
+        <display>background-color:#01A8F7</display>
+        <element>status</element>
+        <name>x_twte2_rpa_time_0_request</name>
+        <sys_class_name>sys_report_chart_color</sys_class_name>
+        <sys_created_by>AC51163</sys_created_by>
+        <sys_created_on>2021-08-27 23:28:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e984cfac59daf054bdb98d577b108634</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_twte2_rpa_time_0_request</sys_name>
+        <sys_package display_value="RPA_Time_Off_Request" source="x_twte2_rpa_time_0">6984cfac12daf054f781cad1b04e7959</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RPA_Time_Off_Request">6984cfac12daf054f781cad1b04e7959</sys_scope>
+        <sys_update_name>sys_report_chart_color_e984cfac59daf054bdb98d577b108634</sys_update_name>
+        <sys_updated_by>AC51163</sys_updated_by>
+        <sys_updated_on>2021-08-27 23:28:57</sys_updated_on>
+        <value>approved</value>
+    </sys_report_chart_color>
+</record_update>

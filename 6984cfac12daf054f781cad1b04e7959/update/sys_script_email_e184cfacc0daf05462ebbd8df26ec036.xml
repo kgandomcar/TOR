@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>x_twte2_rpa_time_0.to.view</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript( /* GlideRecord */ current, /* TemplatePrinter */ template,
+    /* Optional EmailOutbound */
+    email, /* Optional GlideRecord */ email_action,
+    /* Optional GlideRecord */
+    event) {
+
+    var link = current.getLink();
+    template.print('<font face="tahoma">');
+
+    // 	var backgroundColor = 'background-color: #003059;';
+    var color = 'color: #ffffff;';
+    var fontSize = 'font-size: 12pt;';
+    // 	var fontFamily = 'font-family: Helvetica, Arial, sans-serif;';
+    var textDecoration = 'text-decoration: none;';
+    // 	var webKitBorder = '-webkit-border-radius: 0px;';
+    // 	var mozBorder = '-moz-border-radius: 0px;';
+    // 	var display = 'display: inline-block;';
+    // 	var padding = 'padding: 13px 65px;';
+
+
+    //template.print('<a href="' + link + '"');
+    template.print('<a href="' + gs.getProperty('glide.servlet.uri') + 'now/time-off-request/portal/request/' + current.sys_class_name + '/' + current.sys_id + '/record' + '"');
+    template.print('style="' + color + fontSize + textDecoration);
+    template.print('">');
+    template.print(gs.getMessage('View request'));
+    template.print('</a>');
+    template.print('</font>');
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>AC51163</sys_created_by>
+        <sys_created_on>2021-08-27 23:28:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e184cfacc0daf05462ebbd8df26ec036</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_twte2_rpa_time_0.to.view</sys_name>
+        <sys_package display_value="RPA_Time_Off_Request" source="x_twte2_rpa_time_0">6984cfac12daf054f781cad1b04e7959</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RPA_Time_Off_Request">6984cfac12daf054f781cad1b04e7959</sys_scope>
+        <sys_update_name>sys_script_email_e184cfacc0daf05462ebbd8df26ec036</sys_update_name>
+        <sys_updated_by>AC51163</sys_updated_by>
+        <sys_updated_on>2021-08-27 23:28:54</sys_updated_on>
+    </sys_script_email>
+</record_update>

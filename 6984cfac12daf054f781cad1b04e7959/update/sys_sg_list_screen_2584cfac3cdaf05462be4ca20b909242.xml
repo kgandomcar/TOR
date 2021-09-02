@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_list_screen">
+    <sys_sg_list_screen action="INSERT_OR_UPDATE">
+        <application_roles/>
+        <available_offline>false</available_offline>
+        <data_item/>
+        <description/>
+        <dynamic_prefetch_count/>
+        <empty_state/>
+        <fetch_type>on_demand</fetch_type>
+        <filter/>
+        <hidden>false</hidden>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="icon-Address-Book">e984cfaca6daf054e81d166abbbf5941</icon>
+        <item_view/>
+        <name>Recent Requests</name>
+        <order/>
+        <parent/>
+        <parent_table/>
+        <roles_override/>
+        <style/>
+        <sys_class_name>sys_sg_list_screen</sys_class_name>
+        <sys_created_by>AC51163</sys_created_by>
+        <sys_created_on>2021-08-27 23:29:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2584cfac3cdaf05462be4ca20b909242</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Recent Requests</sys_name>
+        <sys_package display_value="RPA_Time_Off_Request" source="x_twte2_rpa_time_0">6984cfac12daf054f781cad1b04e7959</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RPA_Time_Off_Request">6984cfac12daf054f781cad1b04e7959</sys_scope>
+        <sys_update_name>sys_sg_list_screen_2584cfac3cdaf05462be4ca20b909242</sys_update_name>
+        <sys_updated_by>AC51163</sys_updated_by>
+        <sys_updated_on>2021-08-27 23:29:00</sys_updated_on>
+    </sys_sg_list_screen>
+</record_update>

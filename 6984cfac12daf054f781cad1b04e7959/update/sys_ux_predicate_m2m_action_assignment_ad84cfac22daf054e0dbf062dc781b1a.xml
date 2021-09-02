@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_predicate_m2m_action_assignment">
+    <sys_ux_predicate_m2m_action_assignment action="INSERT_OR_UPDATE">
+        <declarative_action_assignment display_value="to_navigation">6184cfac52daf054a8cedbe6f6318922</declarative_action_assignment>
+        <predicate display_value="Time Off Config - Recent EDIT">6584cface4daf05409dfa41c0b255e0c</predicate>
+        <sys_class_name>sys_ux_predicate_m2m_action_assignment</sys_class_name>
+        <sys_created_by>AC51163</sys_created_by>
+        <sys_created_on>2021-08-27 23:28:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ad84cfac22daf054e0dbf062dc781b1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RPA_Time_Off_Request" source="x_twte2_rpa_time_0">6984cfac12daf054f781cad1b04e7959</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RPA_Time_Off_Request">6984cfac12daf054f781cad1b04e7959</sys_scope>
+        <sys_update_name>sys_ux_predicate_m2m_action_assignment_ad84cfac22daf054e0dbf062dc781b1a</sys_update_name>
+        <sys_updated_by>AC51163</sys_updated_by>
+        <sys_updated_on>2021-08-27 23:28:59</sys_updated_on>
+    </sys_ux_predicate_m2m_action_assignment>
+</record_update>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>approveUIActionID</name>
+        <page display_value="RPA_Time_Off_Request workspace">a584cfac7cdaf0549f1948059b441b18</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>AC51163</sys_created_by>
+        <sys_created_on>2021-08-27 23:29:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>2984cfacb6daf054296967c6ef62481a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>approveUIActionID</sys_name>
+        <sys_package display_value="RPA_Time_Off_Request" source="x_twte2_rpa_time_0">6984cfac12daf054f781cad1b04e7959</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RPA_Time_Off_Request">6984cfac12daf054f781cad1b04e7959</sys_scope>
+        <sys_update_name>sys_ux_page_property_2984cfacb6daf054296967c6ef62481a</sys_update_name>
+        <sys_updated_by>AC51163</sys_updated_by>
+        <sys_updated_on>2021-08-27 23:29:06</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_twte2_rpa_time_0.a584cfac7cdaf0549f1948059b441b18.root.approveUIActionID</unique_name>
+        <value>e5848fac51daf054a9839729e16fe7f2</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=2984cfacb6daf054296967c6ef62481a"/>
+</record_update>

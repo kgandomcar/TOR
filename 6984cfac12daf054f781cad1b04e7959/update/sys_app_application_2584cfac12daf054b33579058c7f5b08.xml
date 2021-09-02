@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Administration">647e6524c0a80a080010856a87e15ce2</category>
+        <description>Schedule employee vacations and time-off</description>
+        <device_type>browser</device_type>
+        <hint>Schedule employee vacations and time-off</hint>
+        <name/>
+        <order/>
+        <roles>x_twte2_rpa_time_0.employee,x_twte2_rpa_time_0.admin,x_twte2_rpa_time_0.manager</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>AC51163</sys_created_by>
+        <sys_created_on>2021-08-27 23:29:24</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>2584cfac12daf054b33579058c7f5b08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RPA_Time_Off_Request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RPA_Time_Off_Request" source="x_twte2_rpa_time_0">6984cfac12daf054f781cad1b04e7959</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RPA_Time_Off_Request">6984cfac12daf054f781cad1b04e7959</sys_scope>
+        <sys_update_name>sys_app_application_2584cfac12daf054b33579058c7f5b08</sys_update_name>
+        <sys_updated_by>AC51163</sys_updated_by>
+        <sys_updated_on>2021-08-27 23:29:24</sys_updated_on>
+        <title>RPA_Time_Off_Request</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

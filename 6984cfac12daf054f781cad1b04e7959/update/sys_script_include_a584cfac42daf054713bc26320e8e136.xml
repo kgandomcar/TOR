@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_twte2_rpa_time_0.TimeOffDateValidation</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>TimeOffDateValidation</name>
+        <script><![CDATA[var TimeOffDateValidation = Class.create();
+TimeOffDateValidation.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	startDate: function(){
+		var date = this.getParameter('sysparm_date');
+		var gdt = new GlideDateTime();
+		var today = gdt.getDate();
+		var gdt2 = new GlideDateTime(date);
+		var start = gdt2.getDate();
+		var answer = '';
+
+		if (start <= today){
+			answer = true;
+		}
+		return answer;
+	},
+	
+	endDate: function(){
+		var end_date = this.getParameter('sysparm_end');
+		var start_date = this.getParameter('sysparm_start');
+		var answer = '';
+
+		if (end_date < start_date){
+			answer = true;
+		}
+		return answer;
+	},
+
+
+    type: 'TimeOffDateValidation'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>AC51163</sys_created_by>
+        <sys_created_on>2021-08-27 23:29:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a584cfac42daf054713bc26320e8e136</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TimeOffDateValidation</sys_name>
+        <sys_package display_value="RPA_Time_Off_Request" source="x_twte2_rpa_time_0">6984cfac12daf054f781cad1b04e7959</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RPA_Time_Off_Request">6984cfac12daf054f781cad1b04e7959</sys_scope>
+        <sys_update_name>sys_script_include_a584cfac42daf054713bc26320e8e136</sys_update_name>
+        <sys_updated_by>AC51163</sys_updated_by>
+        <sys_updated_on>2021-08-27 23:29:06</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Activity" section_id="a9848fac79daf054e3abb9b116a1bcf3" sys_domain="global" table="x_twte2_rpa_time_0_request" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>0</position>
+            <sys_created_by>AC51163</sys_created_by>
+            <sys_created_on>2021-08-27 23:28:50</sys_created_on>
+            <sys_id>21848fac0ddaf0540c1e10ed106129f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Activity" display_value="Activity" name="x_twte2_rpa_time_0_request" sys_domain="global" view="Default view">a9848fac79daf054e3abb9b116a1bcf3</sys_ui_section>
+            <sys_updated_by>AC51163</sys_updated_by>
+            <sys_updated_on>2021-08-27 23:28:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>1</position>
+            <sys_created_by>AC51163</sys_created_by>
+            <sys_created_on>2021-08-27 23:28:50</sys_created_on>
+            <sys_id>61848fac94daf054045b5b39b69766f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Activity" display_value="Activity" name="x_twte2_rpa_time_0_request" sys_domain="global" view="Default view">a9848fac79daf054e3abb9b116a1bcf3</sys_ui_section>
+            <sys_updated_by>AC51163</sys_updated_by>
+            <sys_updated_on>2021-08-27 23:28:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>2</position>
+            <sys_created_by>AC51163</sys_created_by>
+            <sys_created_on>2021-08-27 23:28:50</sys_created_on>
+            <sys_id>25848fac72daf0549f9889251ef1c3f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="">a1848fac4adaf054d8508096662a90f6</sys_ui_formatter>
+            <sys_ui_section caption="Activity" display_value="Activity" name="x_twte2_rpa_time_0_request" sys_domain="global" view="Default view">a9848fac79daf054e3abb9b116a1bcf3</sys_ui_section>
+            <sys_updated_by>AC51163</sys_updated_by>
+            <sys_updated_on>2021-08-27 23:28:50</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Activity</caption>
+            <header>false</header>
+            <name>x_twte2_rpa_time_0_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>AC51163</sys_created_by>
+            <sys_created_on>2021-08-27 23:28:50</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>a9848fac79daf054e3abb9b116a1bcf3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_twte2_rpa_time_0_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="RPA_Time_Off_Request" source="x_twte2_rpa_time_0">6984cfac12daf054f781cad1b04e7959</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="RPA_Time_Off_Request">6984cfac12daf054f781cad1b04e7959</sys_scope>
+            <sys_update_name>sys_ui_section_a9848fac79daf054e3abb9b116a1bcf3</sys_update_name>
+            <sys_updated_by>AC51163</sys_updated_by>
+            <sys_updated_on>2021-08-27 23:28:50</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

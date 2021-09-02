@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>end_date</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Validate End Date</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    var ajax = new GlideAjax('x_twte2_rpa_time_0.TimeOffDateValidation');
+    ajax.addParam('sysparm_name', 'endDate');
+    ajax.addParam('sysparm_end', newValue);
+    ajax.addParam('sysparm_start', g_form.getValue('start_date'));
+    ajax.getXML(dateValidation);
+    var end_date = newValue.split(' ');
+
+
+
+    function dateValidation(response) {
+        var answer = response.responseXML.documentElement.getAttribute("answer");
+        if (answer == 'true') {
+            g_form.clearValue('end_date');
+            g_form.showFieldMsg('end_date', 'End Date ( ' + end_date[0] + ' ) may not be before Start Date.', 'error');
+        } else {
+            g_form.hideFieldMsg('end_date');
+        }
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>AC51163</sys_created_by>
+        <sys_created_on>2021-08-27 23:29:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>6d84cfac43daf054f6c00d57947bb835</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validate End Date</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RPA_Time_Off_Request" source="x_twte2_rpa_time_0">6984cfac12daf054f781cad1b04e7959</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RPA_Time_Off_Request">6984cfac12daf054f781cad1b04e7959</sys_scope>
+        <sys_update_name>sys_script_client_6d84cfac43daf054f6c00d57947bb835</sys_update_name>
+        <sys_updated_by>AC51163</sys_updated_by>
+        <sys_updated_on>2021-08-27 23:29:04</sys_updated_on>
+        <table>x_twte2_rpa_time_0_request</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

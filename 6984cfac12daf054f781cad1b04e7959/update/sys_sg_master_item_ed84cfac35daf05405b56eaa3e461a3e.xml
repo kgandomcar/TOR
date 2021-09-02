@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
+    <sys_sg_master_item action="INSERT_OR_UPDATE">
+        <condition/>
+        <condition_order/>
+        <datasource_table>x_twte2_rpa_time_0_request</datasource_table>
+        <datasource_table_condition/>
+        <embedded_screen/>
+        <item_view display_value="Request List Screen Item View">a584cfac3cdaf054a513f9aa1e41f345</item_view>
+        <name>Request master_item</name>
+        <screen/>
+        <sys_class_name>sys_sg_master_item</sys_class_name>
+        <sys_created_by>AC51163</sys_created_by>
+        <sys_created_on>2021-08-27 23:29:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ed84cfac35daf05405b56eaa3e461a3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request master_item</sys_name>
+        <sys_package display_value="RPA_Time_Off_Request" source="x_twte2_rpa_time_0">6984cfac12daf054f781cad1b04e7959</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RPA_Time_Off_Request">6984cfac12daf054f781cad1b04e7959</sys_scope>
+        <sys_update_name>sys_sg_master_item_ed84cfac35daf05405b56eaa3e461a3e</sys_update_name>
+        <sys_updated_by>AC51163</sys_updated_by>
+        <sys_updated_on>2021-08-27 23:29:11</sys_updated_on>
+        <table/>
+        <use_view_config>false</use_view_config>
+        <view_config/>
+    </sys_sg_master_item>
+</record_update>
